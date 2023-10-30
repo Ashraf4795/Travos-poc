@@ -5,6 +5,7 @@ import com.google.firebase.FirebaseApp
 import com.google.firebase.FirebaseOptions
 import com.google.firebase.messaging.FirebaseMessaging
 import com.google.firebase.messaging.Message
+import com.travos_fcm.service.fcm.sendNotificationToDevice
 import io.ktor.server.application.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
@@ -17,30 +18,17 @@ fun Application.configureRouting() {
             call.respondText("Hello World!")
         }
         get("/send") {
-            sendNotificationToDevice()
+            val token = call.request.queryParameters["token"]
+            token?.let {
+                if (it.isNotBlank()) {
+                    sendNotificationToDevice(token, mapOf(
+                        Pair("from","ktor_web_app"),
+                        Pair("Author","ashraf.hassan@careem.com"),
+                        Pair("Time",System.currentTimeMillis().toString()),
+                    ))
+                }
+            }
         }
     }
 }
 
-fun Application.initializeFirebaseApp() {
-    val serviceAccount = FileInputStream("F:\\Ktor_Dojo\\travos_poc\\Travos_poc\\src\\main\\resources\\service_key.json")
-
-    val options = FirebaseOptions.Builder()
-        .setCredentials(GoogleCredentials.fromStream(serviceAccount))
-        .build()
-
-    FirebaseApp.initializeApp(options)
-}
-
-fun sendNotificationToDevice() {
-    val deviceToken = "cJW6-dgTS7yhIVe_0TCQk3:APA91bGGlhSHtPVFvbOYioQr-geI2PA5SyrTZ9AnioKUoOrbOYxNeIXuwANZ9rb6THMm2jMdvjjTdDDyFTA4N9FvZL1ZWvl5jjCRa2YrDRAEm3ain-juRxFodefjYEQRFm_rYaApqFB1"
-    val message: Message = Message.builder()
-        .putData("score", "850")
-        .putData("time", "2:45")
-        .setToken(deviceToken)
-        .build()
-
-    val response = FirebaseMessaging.getInstance().send(message)
-    println("Successfully sent message: $response")
-
-}
