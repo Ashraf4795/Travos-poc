@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "travos-android",
+  "private_key_id": "49c30b2c38dd6c8bdcea51208c54cda4d76c0fd3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCqPOSFxBQhQUcz\n10BLt5xP6wF5JaqCCF9uPC4GkBV+xjLYWfFr70FwBPqBAWgxd4kZIiH/dLIH4nvy\nTGeloS+xTLvAlSwBThk5YIEX3cbail8a0h6ScRjsykqNzdBbkUxKt3neT7QlNl5k\nhWW7WSLHIAuO1e4F03+VZJFzNUAr0Catf5Tn+8HeuNhoyQdVrf9FxwJJxDY0xxOy\nr1l5fy8peWIv8vXHelONpFvyTSqlyGG2GnIQKfpqaV79q6TBwRiCIxywamhQ8sQf\nclqVB1sVwDgndvNefh9rQuiVFtVmVesAzbcB7zkJh6ZNIu2yjx4SkzVvSV1jZJhn\nwS85B4PfAgMBAAECggEAHMQBUWEajav8HhRnNuQls5NgQlpM/3/usC/XDyDVoQBY\noxo/ox9gjU8qDRZxxroOHoMX/5R2aMKqcvzaHrCn4Gu45gfO0cGinYFjDudYrKDp\nBR0wMUqPDaP5CREX/gEFRTLPkvMg25DeTloEIK4lJEST72TSvYVJb7L4qOD8oOpa\nhkNNvp4sj2V6l6RhBApc/0tI4vR2qMvscLui8g6Wtgo2g+78MYf+2wwGdeagLjFj\nGkvHP1cpEckhYdQLeeewgfeN7JFDQO2lUjT5xSSq5AGuU9YwnUMkPTxw7dFZomF9\nDWdMmW/vauM/7t73qpnCvuO3mqAfJiB58u9INFSA0QKBgQDfwRkybiV556JFex3U\nqIOUgiEk06eZ1xmvEcKvO+PD5qc2d/ZaG14//PoaYOIuIfX7aLahwr6bmVzWaa67\nhTMPzFnQmJd+oMtkeUQuwXq/SIWC9ENr7SHaNqdITn6Ae6L26iViDupfIkoTdJVD\nzm2cRRkRwXD9ZqxrtS9KKN1hQwKBgQDCxW2kr3iJZZZpkaPJBWU0B9ZQiIcwqCXC\nSMzFS3z6npMvyLBdVhv5mn4dFz3QP+nbVDZUXkkZ58qrL3zPwzVwd9SsZYQ52qsu\npOEBqGcE7FT2E/sorMb9rA/bCKJsaPxLW8UW7pFuKHY88Ic5gVdWyiM1DihpdaGQ\ncFVwp2GLNQKBgAr/PZLJ8ROVu9b4XxX1lkn1P1XFBUa9WKjPEad1JROawXse2D/D\nepVghJZJTrR/vMw3cEpw/Nc+6V4sYYcb28+Z9owXA9MYagatIxm9LqA6Gz29bZbf\nV7uW1g/qs7Ly4KaMCXxRSVmVoNhl8XQcsCxvBPVncXsy0aSVihZ1/bNrAoGADHJJ\nW2jLLxyKzBw+dy4dFYIas/LFkNpt70hvrXvxdKKFjVwpyQ0jpIO2420EyjYLX7S1\n9BZCXaFuVhomw7AZziIaORoTpQ7QOZ7Xsh9s1ee0VjVYq3S/Ep7YNIsMthjPZpFq\nuthr+rojNCm6unYFespYDZ/l/TdDJ9PF4fkQRrECgYAmrE6ASXtbYJturl0matXX\n5GUYCUGomD7OkNvHRuFqPIU4V8SmywEqzM3LxJsLZK3ck/mxj6Va2vcD/ve9Jkdm\ndA5J16tb552xs4wK2+jr4hx6czUWQ7sK3oy8R4YnwNKWFD5ECebKcfSHR4G73ABv\nrEILBTC18YXefFGPD2FS6w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-v2u0n@travos-android.iam.gserviceaccount.com",
+  "client_id": "112629560682500112918",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-v2u0n%40travos-android.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
